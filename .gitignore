@@ -1,0 +1,9 @@
+*~
+*.swp
+plugin
+.cache
+recentf
+elpa
+transient
+history
+.emacs.d
