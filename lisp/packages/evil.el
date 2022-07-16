@@ -1,7 +1,4 @@
 ;;; init-evil.el --- javascript initialization
-;;; Commentary:
-;;; Code:
-
 (use-package evil
   :init
   (evil-mode 1)
@@ -66,9 +63,8 @@
     "s" 'swiper
     "k" 'kill-buffer
     "g" 'magit-status
-    "e" 'neotree-find
-    "t" 'neotree-toggle
-    "=" 'writeroom-mode
+    "e" 'treemacs-find-file
+    "t" 'treemacs
     "\\" 'toggle-frame-fullscreen
     "cl" 'evilnc-comment-or-uncomment-lines
     "cu" 'uncomment-region
