@@ -6,4 +6,8 @@ recentf
 elpa
 transient
 history
+straight
+auto-save-list
 .emacs.d
+projects
+var
